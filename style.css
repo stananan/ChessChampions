@@ -1,0 +1,103 @@
+/* Reset some default styles for better consistency */
+body,
+h1,
+h2,
+p,
+a {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #ffffff;
+    /* White background */
+    color: #333;
+}
+
+.header {
+    background-color: #2ecc71;
+    /* Green header */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.header-title {
+    font-size: 48px;
+}
+
+.nav {
+    background-color: #27ae60;
+    /* Darker green navigation */
+    overflow: hidden;
+    text-align: center;
+    /* Center the navigation links */
+}
+
+.navElement {
+    display: inline-block;
+    /* Display navigation links in a line */
+}
+
+.navElement a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 18px;
+    /* Increase font size for navigation links */
+}
+
+.navElement a:hover {
+    background-color: #1d8348;
+    /* Dark green on hover */
+}
+
+.content {
+    max-width: 800px;
+    /* Set maximum width for content */
+    margin: 0 auto;
+    /* Center the content */
+    padding: 20px;
+}
+
+.content-div {
+    background-color: #ecf0f1;
+    /* Light gray background for content divs */
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: left;
+    /* Center the content within the div */
+}
+
+.logo {
+    display: block;
+    margin: 0 auto;
+    /* Center the logo horizontally */
+}
+
+.content-header {
+    color: #2ecc71;
+    /* Green heading */
+    font-size: 24px;
+    /* Increase font size for heading */
+    margin-top: 10px;
+    margin-bottom: 10px;
+    /* Add space between heading and paragraph */
+}
+
+.content-p {
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    /* Increase font size for paragraphs */
+}
+
+.signup {
+    width: 100%;
+    height: 750px;
+}
+
+/* Add more styles as needed for your specific design */
