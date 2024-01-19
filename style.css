@@ -64,9 +64,11 @@ body {
 }
 
 .content-div {
-    background-color: #ecf0f1;
+    background-color: #e8eaec;
+
     /* Light gray background for content divs */
     padding: 20px;
+    margin-top: 20px;
     margin-bottom: 20px;
     text-align: left;
     /* Center the content within the div */
@@ -98,6 +100,50 @@ body {
 .signup {
     width: 100%;
     height: 750px;
+}
+
+
+.slideshow-container {
+    max-width: 100%;
+    position: relative;
+    margin: auto;
+}
+
+.slide {
+    display: none;
+
+    width: 100%;
+    animation: fade 1s ease-in-out;
+    /* Add fade animation */
+}
+
+@keyframes fade {
+    from {
+        opacity: 0.4;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+
+.prev,
+.next {
+    position: absolute;
+    top: 45%;
+    width: auto;
+    padding: 16px;
+    font-size: 20px;
+    color: white;
+    background-color: #2ecc71;
+    border: none;
+    cursor: pointer;
+    animation: fade 1.5s ease-in-out;
+}
+
+.next {
+    right: 0;
 }
 
 /* Add more styles as needed for your specific design */
